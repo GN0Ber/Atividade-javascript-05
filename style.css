@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(to right, aqua, black);
+}
+
+.container{
+    width: 100%; /*largura*/
+    height: 800px; /*altura*/
+    margin: auto; /*margem*/
+}
+
+#menu{
+    width: 100%; /*largura*/
+    height: 150px; /*altura*/
+    text-align: center; /*alinhamento na pagina*/
+}
+
+#menu ul li{
+    list-style: none; /*tira as bolinhas*/  
+    display: inline; /*deixa em linha*/
+    padding: 4px; /*bota espaçamento*/
+}
+
+#menu ul li a{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; /*tira o sublinhado*/
+}
+
+#menu ul li a:hover{
+    background-color: aqua;
+    color: black;
+    padding: 4px;
+}
+
+h1,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; /*negrito*/
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    color: bisque;
+    text-align: center;
+}
+
+footer{
+    width: 100%; /*largura*/
+    height: 150px; /*altura*/
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 50px;
+}
